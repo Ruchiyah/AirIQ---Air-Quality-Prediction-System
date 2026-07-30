@@ -1,0 +1,40 @@
+# --- Large model artifact (distributed via GitHub Releases, >100 MB) ---
+*.joblib
+
+# --- Generated data (recreated by the notebooks from PRSA_Data_20130301-20170228/) ---
+/data/
+
+# --- Local-only: original submission bundle and personal files ---
+_archive/
+CLAUDE.md
+.claude/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- Node / frontend (frontend/.gitignore covers more) ---
+node_modules/
+dist/
+
+# --- Environment & secrets ---
+.env
+.env.*
+!.env.example
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- R / Jupyter session leftovers ---
+.Rhistory
+.RData
+.playwright-mcp/
