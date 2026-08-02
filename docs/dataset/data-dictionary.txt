@@ -1,0 +1,38 @@
+Beijing Multi-Site Air Quality Dataset/
+├── Aotizhongxin.csv
+├── Changping.csv
+├── Dingling.csv
+├── Dongsi.csv
+├── Guanyuan.csv
+├── Gucheng.csv
+├── Huairou.csv
+├── Nongzhanguan.csv
+├── Shunyi.csv
+├── Tiantan.csv
+├── Wanliu.csv
+├── Wanshouxigong.csv
+├── Data_Dictionary.xlsx
+└── README.txt
+
+Data Dictionary
+
+Column	Description						Data Type	Unit
+
+No	Record number						Integer		—
+year	Year of observation					Integer		—
+month	Month of observation					Integer		—
+day	Day of observation					Integer		—
+hour	Hour of observation					Integer		—
+PM2.5	Fine particulate matter concentration			Numeric		µg/m³
+PM10	Particulate matter concentration			Numeric		µg/m³
+SO2	Sulfur dioxide concentration				Numeric		µg/m³
+NO2	Nitrogen dioxide concentration				Numeric		µg/m³
+CO	Carbon monoxide concentration				Numeric		µg/m³
+O3	Ozone concentration					Numeric		µg/m³
+TEMP	Temperature						Numeric		°C
+PRES	Atmospheric pressure					Numeric		hPa
+DEWP	Dew point temperature					Numeric		°C
+RAIN	Rainfall amount						Numeric		mm
+wd	Wind direction						Categorical	—
+WSPM	Wind speed						Numeric		m/s
+station	Name/identifier of the air-quality monitoring station	Categorical	—

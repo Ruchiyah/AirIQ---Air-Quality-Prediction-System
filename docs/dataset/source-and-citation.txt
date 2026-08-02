@@ -1,0 +1,54 @@
+DATASET SOURCE AND CITATION
+
+Dataset Name:
+Beijing Multi-Site Air Quality
+
+Original Source:
+UCI Machine Learning Repository
+Dataset ID: 501
+
+Citation:
+Chen, S. (2017). Beijing Multi-Site Air Quality [Dataset].
+UCI Machine Learning Repository.
+https://doi.org/10.24432/C5RK5G
+
+Official Dataset Page:
+https://archive.ics.uci.edu/dataset/501/beijing+multi+site+air+quality+data
+
+Original Research Paper:
+Zhang, S., Guo, B., Dong, A., He, J., Xu, Z., & Chen, S. (2017).
+Cautionary tales on air-quality improvement in Beijing.
+Proceedings of the Royal Society A.
+
+DATASET COVERAGE:
+
+- Location: Beijing, China
+- Monitoring Stations: 12
+- Time Resolution: Hourly
+- Period: March 1, 2013 – February 28, 2017
+- Total Observations: 420,768
+- Original Columns: 18
+
+MONITORING STATIONS:
+
+1.  Aotizhongxin
+2.  Changping
+3.  Dingling
+4.  Dongsi
+5.  Guanyuan
+6.  Gucheng
+7.  Huairou
+8.  Nongzhanguan
+9.  Shunyi
+10. Tiantan
+11. Wanliu
+12. Wanshouxigong
+
+DATASET ORGANIZATION:
+
+The original dataset has been reorganized into 12 station-level CSV
+files for this project. The original observations and data values
+have not been modified.
+
+The dataset is provided for academic and educational purposes with
+appropriate attribution to the original source.
