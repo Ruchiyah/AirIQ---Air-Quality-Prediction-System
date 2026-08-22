@@ -1,0 +1,12 @@
+# Backend API + ML helpers (src/)
+fastapi>=0.142
+uvicorn>=0.54
+pydantic>=2.13
+pandas>=3.0
+numpy>=2.5
+requests>=2.34
+joblib>=1.6
+
+# Pinned exactly: the saved model pipeline was pickled with scikit-learn 1.9.1.
+# Loading it with a different version may fail or give inconsistent predictions.
+scikit-learn==1.9.1
