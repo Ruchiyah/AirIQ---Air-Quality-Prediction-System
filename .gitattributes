@@ -1,0 +1,4 @@
+# Exclude Jupyter notebooks from GitHub's language statistics.
+# 02_eda.ipynb embeds ~20 MB of plot images, which would otherwise make the
+# repository show as ~99% "Jupyter Notebook". Notebooks still render normally.
+*.ipynb linguist-detectable=false
