@@ -181,8 +181,8 @@ You'll also need about **1.5 GB of free disk space**, about **1 GB of free RAM**
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<repository-name>.git
-cd <repository-name>
+git clone https://github.com/Ruchiyah/AirIQ---Air-Quality-Prediction-System.git
+cd AirIQ---Air-Quality-Prediction-System
 ```
 
 > No Git? On the GitHub page, click **Code → Download ZIP**, extract it, and open a terminal in the extracted folder.
